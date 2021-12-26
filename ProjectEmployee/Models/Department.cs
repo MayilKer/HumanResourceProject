@@ -41,7 +41,7 @@ namespace ProjectEmployee
         
         public override string ToString()
         {
-            return $"Depatment: {Name} Worker \nLimit: {WorkerLimit} \nSalary limit: {SlaryLimit}";
+            return $"Depatment: {Name}  \nWorkerLimit: {WorkerLimit} \nSalary limit: {SlaryLimit}";
         }
     }
 }

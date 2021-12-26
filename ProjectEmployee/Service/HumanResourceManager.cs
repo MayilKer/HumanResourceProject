@@ -34,7 +34,7 @@ namespace ProjectEmployee.Service
             _employees[_employees.Length - 1] = employee;
         }
 
-        public void EditDepartment(string DepartmentName, string NewDepartmentName)
+        public void EditDepartment(string DepartmentName, string NewDepartmentName,int workerLimit, double salarylimit)
         {
             Department departments = null;
             foreach (Department item in _departments)
@@ -45,6 +45,8 @@ namespace ProjectEmployee.Service
                 }
             }
             departments.Name = NewDepartmentName;
+            departments.WorkerLimit = workerLimit;
+            departments.SlaryLimit = salarylimit;
         }
 
         public void EditEmployee(string EmployeNo, string fullname, double salary, string position)
