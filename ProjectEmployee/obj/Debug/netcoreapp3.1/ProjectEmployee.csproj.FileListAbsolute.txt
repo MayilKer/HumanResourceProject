@@ -1,0 +1,14 @@
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\bin\Debug\netcoreapp3.1\ProjectEmployee.exe
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\bin\Debug\netcoreapp3.1\ProjectEmployee.deps.json
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\bin\Debug\netcoreapp3.1\ProjectEmployee.runtimeconfig.json
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\bin\Debug\netcoreapp3.1\ProjectEmployee.runtimeconfig.dev.json
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\bin\Debug\netcoreapp3.1\ProjectEmployee.dll
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\bin\Debug\netcoreapp3.1\ProjectEmployee.pdb
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.csproj.AssemblyReference.cache
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.AssemblyInfoInputs.cache
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.AssemblyInfo.cs
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.csproj.CoreCompileInputs.cache
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.dll
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.pdb
+C:\Users\kerim\source\repos\ProjectEmployee\ProjectEmployee\obj\Debug\netcoreapp3.1\ProjectEmployee.genruntimeconfig.cache
