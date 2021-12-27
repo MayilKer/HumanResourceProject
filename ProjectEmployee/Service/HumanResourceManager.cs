@@ -49,7 +49,7 @@ namespace ProjectEmployee.Service
             departments.SlaryLimit = salarylimit;
         }
 
-        public void EditEmployee(string EmployeNo, string fullname, double salary, string position)
+        public void EditEmployee(string EmployeNo,double salary, string position)
         {
             Employee employee = null;
             foreach (Employee item in _employees)
@@ -59,21 +59,35 @@ namespace ProjectEmployee.Service
                     employee = item;
                 }
             }
-            employee.Fullname = fullname;
+            
             employee.Salary = salary;
             employee.Position = position;
         }
 
-        public void RemoveEmployee(string EmployeNo)
+        public void RemoveEmployee(string EmployeNo, string DepNo)
         {
             for (int i = 0; i < _employees.Length; i++)
             {
-                if (_employees[i] != null && _employees[i].No.ToUpper() == EmployeNo.ToUpper())
+                if (_employees[i] != null && _employees[i].No.ToUpper() == EmployeNo.ToUpper() && _employees[i].DepartamnetName.ToLower() == DepNo.ToLower())
                 {
                     _employees[i] = null;
                     return;
                 }
             }
+        }
+
+        public Employee[] GetEmployeeListByDepartment(string DepName)
+        {
+            Employee[] employees = new Employee[0];
+            foreach (Employee item in _employees)
+            {
+                if (item != null && item.DepartamnetName.ToLower() == DepName.ToLower())
+                {
+                    Array.Resize(ref employees, employees.Length + 1);
+                    employees[employees.Length - 1] = item;
+                }
+            }
+            return employees;
         }
     }
 }

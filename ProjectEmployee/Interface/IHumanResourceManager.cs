@@ -11,7 +11,8 @@ namespace ProjectEmployee.Interface
         void AddDepartment(string name, int workerLimit, double salarylimit);
         void EditDepartment(string DepartmentName,string NewDepartmentName, int workerLimit, double salarylimit);
         void AddEmployee(string fullname, double salary, string departamentname, string position);
-        void RemoveEmployee(string EmployeNo);
-        void EditEmployee(string EmployeNo, string fullname, double salary,string position);
+        void RemoveEmployee(string EmployeNo, string DepNo);
+        void EditEmployee(string EmployeNo,double salary,string position);
+       Employee[] GetEmployeeListByDepartment(string DepName);
     }
 }
