@@ -372,12 +372,12 @@ namespace ProjectEmployee
                 }
                 foreach (Employee item in humanResourceManager.Employees)
                 {
-                    if (item == null)
+                    if (item != null)
                     {
-                        return;
-                    }
-                    Console.WriteLine("--------------------------------");
+                        Console.WriteLine("--------------------------------");
                     Console.WriteLine(item);
+                    }
+                    
                 }
                 
             }
@@ -412,7 +412,7 @@ namespace ProjectEmployee
                 {
                     foreach (Employee item in humanResourceManager.Employees)
                     {
-                        if (item.DepartamnetName.ToLower() == EmpByDep.ToLower())
+                        if (item != null && item.DepartamnetName.ToLower() == EmpByDep.ToLower())
                         {
                             count++;
                         }
@@ -459,12 +459,12 @@ namespace ProjectEmployee
                 }
                 foreach (Employee item in humanResourceManager.Employees)
                 {
-                    if (item == null)
+                    if (item != null)
                     {
-                        return;
-                    }
-                    Console.WriteLine("--------------------------------");
+                       Console.WriteLine("--------------------------------");
                     Console.WriteLine(item);
+                    }
+                    
                 }
                 Console.WriteLine("Duzeliw elemey iwcinin NO-ni daxil edin");
                 string No = Console.ReadLine();
@@ -474,7 +474,7 @@ namespace ProjectEmployee
                 {
                     foreach (Employee item in humanResourceManager.Employees)
                     {
-                        if (item.No.ToLower() == No)
+                        if (item != null && item.No.ToLower() == No)
                         {
                             Console.Clear();
                             Console.WriteLine(item);
@@ -530,12 +530,12 @@ namespace ProjectEmployee
                 }
                 foreach (Employee item in humanResourceManager.Employees)
                 {
-                    if (item == null)
+                    if (item != null)
                     {
-                        return;
-                    }
-                    Console.WriteLine("--------------------------");
+                        Console.WriteLine("--------------------------");
                     Console.WriteLine(item);
+                    }
+                    
                 }
                 Console.WriteLine("Silmey istediyiviz iscinin Departament adini ve NO-ni daxil edin");
                 ready:
@@ -550,7 +550,7 @@ namespace ProjectEmployee
                 {
                     foreach (Employee item in humanResourceManager.Employees)
                     {
-                        if (item.DepartamnetName.ToLower() == Dep.ToLower() && item.No.ToLower() == No.ToLower())
+                        if (item != null && item.DepartamnetName.ToLower() == Dep.ToLower() && item.No.ToLower() == No.ToLower())
                         {
                             count++;
                         }
